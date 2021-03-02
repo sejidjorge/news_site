@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#background_top {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20%;
+}
+#menu_option {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    background-color: black;
+}
+.option {
+    text-align:center;
+    padding: 6px;   
+}
+.option a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 16px;
+}
+.option a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 8px;
+}
+input {
+    margin-top: 1%;
+    margin-left: 40%;
+    width: 25%;
+	font-size: 16px;
+	background: black;
+    border: none;
+	border-bottom: 2px solid whitesmoke;
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: whitesmoke;
+    padding: 4px;
+}
+input::placeholder{
+    color: rgb(219, 219, 219);
+    font-size: 16px;
+    padding: 2px;
+}
+.destaque {
+    width: 70%;
+    margin: 0.5%;
+    float: left;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.destaque h1 {
+    padding: 0.5%;
+    color: whitesmoke;
+    background-color: black;
+}
+.destaque img {
+    width: 50%;
+    float: left;
+    padding: 0.5%;
+}
+#article {
+    padding-left: 2%;
+}
+.most_read {
+    width: 25%;
+    margin: 0.5%;
+    float: right;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    display: flex;
+}
+#conteiner_1 h2 {
+    background-color: black;
+    color: whitesmoke;
+    padding: 2%;
+    padding-left: 2%;
+    display: flex;
+}
+#conteiner_1 ul {
+    padding: 2%;
+    list-style: none;
+}
+#conteiner_1 li {
+    padding-top: 2%;
+}
+#conteiner_1 a {
+    padding: 1%;
+    padding-left: 6%;
+    margin: 2%;
+    color: blue;
+    margin-top: 8%;
+}
+.l1 {
+    margin: 0.4%;
+    padding: 0.4%;
+    float: left;
+    width: 36%;
+}
+.l2 {
+    margin: 0.4%;
+    padding: 0.4%;
+    float: left;
+    width: 36%; 
+    clear: both;
+}
+.card {
+    width: 34.7%;
+    margin-left: 0.5%;
+    float: left;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.top_card h2 {
+    padding: 0.5%;
+    color: whitesmoke;
+    background-color: black;
+}
+.top_card h3{
+    padding: 2%;
+    margin: auto;
+}
+.top_card p{
+    padding: 2%;
+    margin: auto;
+}
+.bottom_card h3 {
+    padding: 1%;
+    color: whitesmoke;
+    background-color: black;
+    text-align-last: center;
+}
+.bottom_card ul {
+    padding: 2%;
+    list-style: none;
+}
+.bottom_card li {
+    padding-top: 2%;
+}
+.bottom_card a {
+    padding: 1%;
+    padding-left: 6%;
+    margin: 2%;
+    color: blue;
+    margin-top: 8%;
+}
+footer {
+    width: 100%;
+    float: left;
+    color: whitesmoke;
+    background-color: black;
+    text-align-last: center;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+@media screen and (max-width: 600px) {
+    .scale {
+      width: 95%;
+      margin: 0.9%;
+      padding: 0.9%;
+      clear: both;
+      float: left;
+    }
+}
+  @media screen and (max-width: 600px) {
+    .hide {
+      display: none;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .limit {
+        float: left;
+        clear: both;
+        width: 95%;
+        margin: 0.9%;
+        padding: 0.9%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .destaque img {
+        width: 90%;
+        float: left;
+        padding: 0.5%
+    }
+ }
